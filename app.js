@@ -40,13 +40,13 @@ function clicked() {
     }
 }
 function edit(a) {
-    let edit = a.parentNode.firstChild.nodeValue
+    let edit = a.parentNode.parentNode.firstChild.nodeValue
     var p = prompt("Edit your value", edit)
-    a.parentNode.firstChild.nodeValue = p
+    a.parentNode.parentNode.firstChild.nodeValue = p
 }
 
 function Delete(b) {
-    b.parentNode.remove()
+    b.parentNode.parentNode.remove()
 }
 function Delete_All() {
     var unorder_List = document.getElementById("unorderList")

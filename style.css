@@ -116,10 +116,10 @@ border: 2px solid rgb(55, 7, 123) ;}
 
     #inp{
         font-size: 17px;
-        width:77vw ;
+        width:75vw ;
     }
     #addTodo{
-        width: 85vw;
+        width: 80vw;
     }
     ul li{
         width: 80vw;
