@@ -116,13 +116,13 @@ border: 2px solid rgb(55, 7, 123) ;}
 
     #inp{
         font-size: 17px;
-        width:57vw ;
+        width:77vw ;
     }
     #addTodo{
-        width: 65vw;
+        width: 85vw;
     }
     ul li{
-        width: 60vw;
+        width: 80vw;
         font-size: 16px;
     }
     #btn{
