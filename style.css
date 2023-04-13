@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todoApp{
+    background-color: rgb(55, 7, 123);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+#inp{
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    outline: none;
+    width: 40vw;
+}
+#mainDiv{
+    display: flex;
+    margin: auto 0;
+}
+#addTodo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+box-shadow:  10px 10px 30px 12px gray;
+border-radius: 10px;
+/* margin-top: 15px; */
+width: 50vw;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#btnDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#btn{
+    background-color:rgb(55, 7, 123) ;
+    color: white;
+    margin-left: 5px;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#btn:hover{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .9s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;
+cursor: pointer;
+}
+#ul{
+    display: flex;
+    justify-content: center;
+margin-top: 30px;    
+font-family: 'Secular One', sans-serif;
+
+}
+
+ul li{
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 6px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+.democlass{
+    background-color:rgb(55, 7, 123)  ;
+    padding: 5px;
+    color: white;
+font-family: 'Secular One', sans-serif;
+border-radius: 10px;
+margin-left: 5px;
+width: 70px;
+
+}
+.democlass:hover{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .5s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;
+cursor: pointer;
+
+}
+.democlass:active{
+    background-color: white;
+    color:rgb(55, 7, 123) ; 
+    transition: .5s;
+font-family: 'Secular One', sans-serif;
+border: 2px solid rgb(55, 7, 123) ;}
+
+@media (max-width: 600px) {
+
+    #inp{
+        font-size: 17px;
+    }
+    ul li{
+        width: 50vw;
+        font-size: 16px;
+    }
+    #btn{
+        width: 90px;
+        font-size: 14px;
+    }
+    .democlass{
+        width: 50px;
+        font-size: 10px;
+    }
+     
+}
